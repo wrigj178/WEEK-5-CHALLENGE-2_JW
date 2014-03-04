@@ -24,6 +24,31 @@
 		8B166A2C18BFD3E100D44443 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B166A0718BFD3E100D44443 /* UIKit.framework */; };
 		8B166A3418BFD3E100D44443 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B166A3218BFD3E100D44443 /* InfoPlist.strings */; };
 		8B166A3618BFD3E100D44443 /* CatNapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B166A3518BFD3E100D44443 /* CatNapTests.m */; };
+		8B166A5918BFD59100D44443 /* background-desat.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B166A4118BFD59100D44443 /* background-desat.png */; };
+		8B166A5A18BFD59100D44443 /* background-desat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B166A4218BFD59100D44443 /* background-desat@2x.png */; };
+		8B166A5B18BFD59100D44443 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B166A4318BFD59100D44443 /* background.png */; };
+		8B166A5C18BFD59100D44443 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B166A4418BFD59100D44443 /* background@2x.png */; };
+		8B166A5D18BFD59100D44443 /* perlin.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B166A4618BFD59100D44443 /* perlin.c */; };
+		8B166A5E18BFD59100D44443 /* level1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B166A4918BFD59100D44443 /* level1.plist */; };
+		8B166A5F18BFD59100D44443 /* level2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B166A4A18BFD59100D44443 /* level2.plist */; };
+		8B166A6018BFD59100D44443 /* level3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B166A4B18BFD59100D44443 /* level3.plist */; };
+		8B166A6118BFD59100D44443 /* level4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B166A4C18BFD59100D44443 /* level4.plist */; };
+		8B166A6218BFD59100D44443 /* level5.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B166A4D18BFD59100D44443 /* level5.plist */; };
+		8B166A6318BFD59100D44443 /* level6.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B166A4E18BFD59100D44443 /* level6.plist */; };
+		8B166A6418BFD59100D44443 /* level7.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B166A4F18BFD59100D44443 /* level7.plist */; };
+		8B166A6518BFD59100D44443 /* bgMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B166A5118BFD59100D44443 /* bgMusic.mp3 */; };
+		8B166A6618BFD59100D44443 /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B166A5218BFD59100D44443 /* lose.mp3 */; };
+		8B166A6718BFD59100D44443 /* pop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B166A5318BFD59100D44443 /* pop.mp3 */; };
+		8B166A6818BFD59100D44443 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B166A5418BFD59100D44443 /* win.mp3 */; };
+		8B166A6918BFD59100D44443 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 8B166A5518BFD59100D44443 /* sprites.atlas */; };
+		8B166A6A18BFD59100D44443 /* BookTrailer.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 8B166A5718BFD59100D44443 /* BookTrailer.m4v */; };
+		8B166A6B18BFD59100D44443 /* loop.mov in Resources */ = {isa = PBXBuildFile; fileRef = 8B166A5818BFD59100D44443 /* loop.mov */; };
+		8B4F8BBA18C621060069CC1B /* SKAction+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F8BB118C621060069CC1B /* SKAction+SKTExtras.m */; };
+		8B4F8BBB18C621060069CC1B /* SKEmitterNode+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F8BB318C621060069CC1B /* SKEmitterNode+SKTExtras.m */; };
+		8B4F8BBC18C621060069CC1B /* SKNode+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F8BB518C621060069CC1B /* SKNode+SKTExtras.m */; };
+		8B4F8BBD18C621060069CC1B /* SKTAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F8BB718C621060069CC1B /* SKTAudio.m */; };
+		8B4F8BBE18C621060069CC1B /* SKTUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F8BB918C621060069CC1B /* SKTUtils.mm */; };
+		8B63957B18BFE9FC00B294B0 /* SKSpriteNode+DebugDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B63957A18BFE9FC00B294B0 /* SKSpriteNode+DebugDraw.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +85,38 @@
 		8B166A3118BFD3E100D44443 /* CatNapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CatNapTests-Info.plist"; sourceTree = "<group>"; };
 		8B166A3318BFD3E100D44443 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8B166A3518BFD3E100D44443 /* CatNapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatNapTests.m; sourceTree = "<group>"; };
+		8B166A4118BFD59100D44443 /* background-desat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-desat.png"; sourceTree = "<group>"; };
+		8B166A4218BFD59100D44443 /* background-desat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-desat@2x.png"; sourceTree = "<group>"; };
+		8B166A4318BFD59100D44443 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		8B166A4418BFD59100D44443 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		8B166A4618BFD59100D44443 /* perlin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = perlin.c; sourceTree = "<group>"; };
+		8B166A4718BFD59100D44443 /* perlin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = perlin.h; sourceTree = "<group>"; };
+		8B166A4918BFD59100D44443 /* level1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = level1.plist; sourceTree = "<group>"; };
+		8B166A4A18BFD59100D44443 /* level2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = level2.plist; sourceTree = "<group>"; };
+		8B166A4B18BFD59100D44443 /* level3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = level3.plist; sourceTree = "<group>"; };
+		8B166A4C18BFD59100D44443 /* level4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = level4.plist; sourceTree = "<group>"; };
+		8B166A4D18BFD59100D44443 /* level5.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = level5.plist; sourceTree = "<group>"; };
+		8B166A4E18BFD59100D44443 /* level6.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = level6.plist; sourceTree = "<group>"; };
+		8B166A4F18BFD59100D44443 /* level7.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = level7.plist; sourceTree = "<group>"; };
+		8B166A5118BFD59100D44443 /* bgMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgMusic.mp3; sourceTree = "<group>"; };
+		8B166A5218BFD59100D44443 /* lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lose.mp3; sourceTree = "<group>"; };
+		8B166A5318BFD59100D44443 /* pop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pop.mp3; sourceTree = "<group>"; };
+		8B166A5418BFD59100D44443 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		8B166A5518BFD59100D44443 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
+		8B166A5718BFD59100D44443 /* BookTrailer.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = BookTrailer.m4v; sourceTree = "<group>"; };
+		8B166A5818BFD59100D44443 /* loop.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = loop.mov; sourceTree = "<group>"; };
+		8B4F8BB018C621060069CC1B /* SKAction+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKAction+SKTExtras.h"; sourceTree = "<group>"; };
+		8B4F8BB118C621060069CC1B /* SKAction+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKAction+SKTExtras.m"; sourceTree = "<group>"; };
+		8B4F8BB218C621060069CC1B /* SKEmitterNode+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKEmitterNode+SKTExtras.h"; sourceTree = "<group>"; };
+		8B4F8BB318C621060069CC1B /* SKEmitterNode+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKEmitterNode+SKTExtras.m"; sourceTree = "<group>"; };
+		8B4F8BB418C621060069CC1B /* SKNode+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKNode+SKTExtras.h"; sourceTree = "<group>"; };
+		8B4F8BB518C621060069CC1B /* SKNode+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKNode+SKTExtras.m"; sourceTree = "<group>"; };
+		8B4F8BB618C621060069CC1B /* SKTAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTAudio.h; sourceTree = "<group>"; };
+		8B4F8BB718C621060069CC1B /* SKTAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTAudio.m; sourceTree = "<group>"; };
+		8B4F8BB818C621060069CC1B /* SKTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTUtils.h; sourceTree = "<group>"; };
+		8B4F8BB918C621060069CC1B /* SKTUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SKTUtils.mm; sourceTree = "<group>"; };
+		8B63957918BFE9FC00B294B0 /* SKSpriteNode+DebugDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SKSpriteNode+DebugDraw.h"; path = "../SKSpriteNode+DebugDraw.h"; sourceTree = "<group>"; };
+		8B63957A18BFE9FC00B294B0 /* SKSpriteNode+DebugDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SKSpriteNode+DebugDraw.m"; path = "../SKSpriteNode+DebugDraw.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +178,8 @@
 		8B166A0B18BFD3E100D44443 /* CatNap */ = {
 			isa = PBXGroup;
 			children = (
+				8B63957918BFE9FC00B294B0 /* SKSpriteNode+DebugDraw.h */,
+				8B63957A18BFE9FC00B294B0 /* SKSpriteNode+DebugDraw.m */,
 				8B166A1418BFD3E100D44443 /* AppDelegate.h */,
 				8B166A1518BFD3E100D44443 /* AppDelegate.m */,
 				8B166A1718BFD3E100D44443 /* Main.storyboard */,
@@ -129,7 +188,9 @@
 				8B166A1D18BFD3E100D44443 /* MyScene.h */,
 				8B166A1E18BFD3E100D44443 /* MyScene.m */,
 				8B166A2018BFD3E100D44443 /* Spaceship.png */,
+				8B4F8BAF18C621060069CC1B /* SKTUtils */,
 				8B166A2218BFD3E100D44443 /* Images.xcassets */,
+				8B166A3F18BFD59100D44443 /* Art */,
 				8B166A0C18BFD3E100D44443 /* Supporting Files */,
 			);
 			path = CatNap;
@@ -162,6 +223,90 @@
 				8B166A3218BFD3E100D44443 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B166A3F18BFD59100D44443 /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				8B166A4018BFD59100D44443 /* Backgrounds */,
+				8B166A4518BFD59100D44443 /* Code */,
+				8B166A4818BFD59100D44443 /* Levels */,
+				8B166A5018BFD59100D44443 /* Sounds */,
+				8B166A5518BFD59100D44443 /* sprites.atlas */,
+				8B166A5618BFD59100D44443 /* Videos */,
+			);
+			path = Art;
+			sourceTree = "<group>";
+		};
+		8B166A4018BFD59100D44443 /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				8B166A4118BFD59100D44443 /* background-desat.png */,
+				8B166A4218BFD59100D44443 /* background-desat@2x.png */,
+				8B166A4318BFD59100D44443 /* background.png */,
+				8B166A4418BFD59100D44443 /* background@2x.png */,
+			);
+			path = Backgrounds;
+			sourceTree = "<group>";
+		};
+		8B166A4518BFD59100D44443 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				8B166A4618BFD59100D44443 /* perlin.c */,
+				8B166A4718BFD59100D44443 /* perlin.h */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		8B166A4818BFD59100D44443 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				8B166A4918BFD59100D44443 /* level1.plist */,
+				8B166A4A18BFD59100D44443 /* level2.plist */,
+				8B166A4B18BFD59100D44443 /* level3.plist */,
+				8B166A4C18BFD59100D44443 /* level4.plist */,
+				8B166A4D18BFD59100D44443 /* level5.plist */,
+				8B166A4E18BFD59100D44443 /* level6.plist */,
+				8B166A4F18BFD59100D44443 /* level7.plist */,
+			);
+			path = Levels;
+			sourceTree = "<group>";
+		};
+		8B166A5018BFD59100D44443 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				8B166A5118BFD59100D44443 /* bgMusic.mp3 */,
+				8B166A5218BFD59100D44443 /* lose.mp3 */,
+				8B166A5318BFD59100D44443 /* pop.mp3 */,
+				8B166A5418BFD59100D44443 /* win.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		8B166A5618BFD59100D44443 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				8B166A5718BFD59100D44443 /* BookTrailer.m4v */,
+				8B166A5818BFD59100D44443 /* loop.mov */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		8B4F8BAF18C621060069CC1B /* SKTUtils */ = {
+			isa = PBXGroup;
+			children = (
+				8B4F8BB018C621060069CC1B /* SKAction+SKTExtras.h */,
+				8B4F8BB118C621060069CC1B /* SKAction+SKTExtras.m */,
+				8B4F8BB218C621060069CC1B /* SKEmitterNode+SKTExtras.h */,
+				8B4F8BB318C621060069CC1B /* SKEmitterNode+SKTExtras.m */,
+				8B4F8BB418C621060069CC1B /* SKNode+SKTExtras.h */,
+				8B4F8BB518C621060069CC1B /* SKNode+SKTExtras.m */,
+				8B4F8BB618C621060069CC1B /* SKTAudio.h */,
+				8B4F8BB718C621060069CC1B /* SKTAudio.m */,
+				8B4F8BB818C621060069CC1B /* SKTUtils.h */,
+				8B4F8BB918C621060069CC1B /* SKTUtils.mm */,
+			);
+			path = SKTUtils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,9 +386,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B166A1018BFD3E100D44443 /* InfoPlist.strings in Resources */,
+				8B166A5918BFD59100D44443 /* background-desat.png in Resources */,
+				8B166A6A18BFD59100D44443 /* BookTrailer.m4v in Resources */,
+				8B166A5F18BFD59100D44443 /* level2.plist in Resources */,
+				8B166A6518BFD59100D44443 /* bgMusic.mp3 in Resources */,
+				8B166A5B18BFD59100D44443 /* background.png in Resources */,
+				8B166A5E18BFD59100D44443 /* level1.plist in Resources */,
+				8B166A5A18BFD59100D44443 /* background-desat@2x.png in Resources */,
+				8B166A6118BFD59100D44443 /* level4.plist in Resources */,
+				8B166A6018BFD59100D44443 /* level3.plist in Resources */,
+				8B166A6318BFD59100D44443 /* level6.plist in Resources */,
+				8B166A6918BFD59100D44443 /* sprites.atlas in Resources */,
 				8B166A2318BFD3E100D44443 /* Images.xcassets in Resources */,
 				8B166A2118BFD3E100D44443 /* Spaceship.png in Resources */,
+				8B166A6718BFD59100D44443 /* pop.mp3 in Resources */,
+				8B166A6818BFD59100D44443 /* win.mp3 in Resources */,
+				8B166A5C18BFD59100D44443 /* background@2x.png in Resources */,
+				8B166A6418BFD59100D44443 /* level7.plist in Resources */,
+				8B166A6B18BFD59100D44443 /* loop.mov in Resources */,
+				8B166A6218BFD59100D44443 /* level5.plist in Resources */,
 				8B166A1918BFD3E100D44443 /* Main.storyboard in Resources */,
+				8B166A6618BFD59100D44443 /* lose.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,10 +425,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B166A5D18BFD59100D44443 /* perlin.c in Sources */,
+				8B4F8BBC18C621060069CC1B /* SKNode+SKTExtras.m in Sources */,
 				8B166A1F18BFD3E100D44443 /* MyScene.m in Sources */,
+				8B63957B18BFE9FC00B294B0 /* SKSpriteNode+DebugDraw.m in Sources */,
+				8B4F8BBE18C621060069CC1B /* SKTUtils.mm in Sources */,
+				8B4F8BBA18C621060069CC1B /* SKAction+SKTExtras.m in Sources */,
 				8B166A1C18BFD3E100D44443 /* ViewController.m in Sources */,
 				8B166A1618BFD3E100D44443 /* AppDelegate.m in Sources */,
+				8B4F8BBB18C621060069CC1B /* SKEmitterNode+SKTExtras.m in Sources */,
 				8B166A1218BFD3E100D44443 /* main.m in Sources */,
+				8B4F8BBD18C621060069CC1B /* SKTAudio.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +646,7 @@
 				8B166A3B18BFD3E100D44443 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B166A3C18BFD3E100D44443 /* Build configuration list for PBXNativeTarget "CatNapTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +655,7 @@
 				8B166A3E18BFD3E100D44443 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
